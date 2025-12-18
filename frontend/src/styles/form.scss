@@ -1,0 +1,81 @@
+@import './variables.scss';
+
+// 表单容器
+.form-container {
+  .el-form-item {
+    margin-bottom: $spacing-lg;
+  }
+
+  .el-input,
+  .el-select,
+  .el-date-picker,
+  .el-input-number,
+  .el-textarea {
+    width: 100%;
+  }
+}
+
+// 全宽输入框类
+.full-width-input {
+  width: 100%;
+}
+
+// 分组显示样式（用于详情页、表单页等）
+.detail-section,
+.form-section {
+  margin-bottom: $spacing-xl;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .section-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: $text-primary;
+    margin-bottom: $spacing-sm;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  :deep(.el-descriptions) {
+    margin-top: $spacing-md;
+
+    // 强制所有标签列宽度一致
+    .el-descriptions__label {
+      width: $descriptions-label-width !important;
+      min-width: $descriptions-label-width !important;
+      max-width: $descriptions-label-width !important;
+      font-weight: 500;
+      text-align: right;
+      padding-right: $spacing-md;
+      box-sizing: border-box;
+    }
+
+    .el-descriptions__content {
+      min-width: 0;
+      word-break: break-word;
+    }
+
+    // 确保两列布局时，每列的宽度一致
+    &.el-descriptions--border {
+      .el-descriptions__table {
+        table-layout: fixed;
+        width: 100%;
+
+        // 强制所有标签单元格宽度一致
+        td.el-descriptions__label,
+        th.el-descriptions__label {
+          width: $descriptions-label-width !important;
+          min-width: $descriptions-label-width !important;
+          max-width: $descriptions-label-width !important;
+          box-sizing: border-box;
+        }
+
+        .el-descriptions__cell {
+          padding: $spacing-md;
+        }
+      }
+    }
+  }
+}

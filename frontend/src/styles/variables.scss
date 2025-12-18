@@ -1,0 +1,67 @@
+// 颜色变量
+$primary-color: #409eff;
+$success-color: #67c23a;
+$warning-color: #e6a23c;
+$danger-color: #f56c6c;
+$info-color: #909399;
+
+$text-primary: #303133;
+$text-regular: #606266;
+$text-secondary: #909399;
+$text-placeholder: #c0c4cc;
+
+$border-color: #dcdfe6;
+$border-color-light: #e4e7ed;
+$border-color-lighter: #ebeef5;
+
+$bg-color: #ffffff;
+$bg-color-light: #fafafa;
+$bg-color-page: #f0f2f5;
+$bg-color-overlay: #f5f7fa;
+
+// 侧边栏颜色
+$sidebar-bg: #282c34;
+$sidebar-text: #a6b0c0;
+$sidebar-active-bg: #409eff;
+$sidebar-active-text: #ffffff;
+$sidebar-hover-bg: rgba(255, 255, 255, 0.05);
+
+// 尺寸变量
+$header-height: 60px;
+$sidebar-width: 200px;
+$sidebar-collapsed-width: 64px;
+
+$border-radius-base: 4px;
+$border-radius-small: 2px;
+
+// 间距
+$spacing-xxs: 2px; // 超小间距，用于按钮组等紧凑布局
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 20px;
+$spacing-xl: 24px;
+
+// 阴影
+$box-shadow-base:
+  0 2px 4px rgba(0, 0, 0, 0.12),
+  0 0 6px rgba(0, 0, 0, 0.04);
+$box-shadow-dark: 0 2px 8px rgba(0, 0, 0, 0.15);
+$box-shadow-light: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+
+// 对话框宽度
+$dialog-width-small: 500px;
+$dialog-width-medium: 600px;
+$dialog-width-large: 800px;
+$dialog-width-xlarge: 80%;
+
+// 表单标签宽度
+$form-label-width: 120px;
+$form-label-width-small: 100px;
+
+// 描述列表标签宽度（用于 el-descriptions）
+$descriptions-label-width: 100px;
+
+// 登录页渐变背景色
+$login-gradient-start: #667eea;
+$login-gradient-end: #764ba2;

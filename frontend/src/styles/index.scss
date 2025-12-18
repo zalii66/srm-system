@@ -1,0 +1,9 @@
+/**
+ * 样式统一入口文件
+ * 导入所有全局样式文件
+ */
+@import './variables.scss';
+@import './mixins.scss';
+@import './common.scss';
+@import './form.scss';
+
